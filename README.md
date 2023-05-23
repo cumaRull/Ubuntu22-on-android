@@ -1,8 +1,8 @@
-# Install Ubuntu20 on Termux Android
+# Install Ubuntu22 on Termux Android
 
-This installs Ubuntu 20 with xfce4 desktop on Termux. All scripts are from Andronix, I just compose and edit them to make the installer easier and smoother. It includes:
+This installs Ubuntu 22 with xfce4 desktop on Termux. All scripts are from Andronix, I just compose and edit them to make the installer easier and smoother. It includes:
 
-- [x] Ubuntu 20
+- [x] Ubuntu 22
 - [x] XFCE4 Desktop
 - [x] TigerVNC Server
 - [x] Non-root Account Creation
@@ -13,19 +13,19 @@ This installs Ubuntu 20 with xfce4 desktop on Termux. All scripts are from Andro
 
 Copy and paste this command to Termux:
 
-### Ubuntu 20 With XFCE4
+### Ubuntu 22 With XFCE4
 
 ```bash
 pkg install wget curl proot tar -y && wget https://raw.githubusercontent.com/tuanpham-dev/termux-ubuntu/master/ubuntu.sh && chmod +x ubuntu.sh && bash ubuntu.sh
 ```
 
-### Ubuntu 20 CLI Only
+### Ubuntu 22 CLI Only
 
 ```bash
 pkg install wget curl proot tar -y && wget https://raw.githubusercontent.com/tuanpham-dev/termux-ubuntu/master/ubuntu.sh && chmod +x ubuntu.sh && bash ubuntu.sh nde
 ```
 
-### Ubuntu 20 With LXDE
+### Ubuntu 22 With LXDE
 
 ```bash
 pkg install wget curl proot tar -y && wget https://raw.githubusercontent.com/tuanpham-dev/termux-ubuntu/master/ubuntu.sh && chmod +x ubuntu.sh && bash ubuntu.sh lxde
