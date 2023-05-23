@@ -16,19 +16,19 @@ Copy and paste this command to Termux:
 ### Ubuntu 22 With XFCE4
 
 ```bash
-pkg install wget curl proot tar -y && wget https://raw.githubusercontent.com/tuanpham-dev/termux-ubuntu/master/ubuntu.sh && chmod +x ubuntu.sh && bash ubuntu.sh
+pkg install wget curl proot tar -y && wget https://raw.githubusercontent.com/cumaRull/ubuntu22-on-android/master/ubuntu.sh && chmod +x ubuntu.sh && bash ubuntu.sh
 ```
 
 ### Ubuntu 22 CLI Only
 
 ```bash
-pkg install wget curl proot tar -y && wget https://raw.githubusercontent.com/tuanpham-dev/termux-ubuntu/master/ubuntu.sh && chmod +x ubuntu.sh && bash ubuntu.sh nde
+pkg install wget curl proot tar -y && wget https://raw.githubusercontent.com/cumaRull/ubuntu22-on-android/master/ubuntu.sh && chmod +x ubuntu.sh && bash ubuntu.sh nde
 ```
 
 ### Ubuntu 22 With LXDE
 
 ```bash
-pkg install wget curl proot tar -y && wget https://raw.githubusercontent.com/tuanpham-dev/termux-ubuntu/master/ubuntu.sh && chmod +x ubuntu.sh && bash ubuntu.sh lxde
+pkg install wget curl proot tar -y && wget https://raw.githubusercontent.com/cumaRull/ubuntu22-on-android/master/ubuntu.sh && chmod +x ubuntu.sh && bash ubuntu.sh lxde
 ```
 
 ## Run
@@ -38,7 +38,7 @@ pkg install wget curl proot tar -y && wget https://raw.githubusercontent.com/tua
 After installation, on Termux, you can execute this command to run ubuntu:
 
 ```bash
-./start-ubuntu20.sh
+./start-ubuntu22.sh
 ```
 
 ### Exit Ubuntu
