@@ -13,6 +13,13 @@ This installs Ubuntu 22 with xfce4 desktop on Termux. All scripts are from Andro
 
 Copy and paste this command to Termux:
 
+### Termux setup 
+
+```bash
+apt update && apt upgrade 
+
+```
+
 ### Ubuntu 22 With XFCE4
 
 ```bash
